@@ -50,6 +50,11 @@
       gap: 10px;
     }
 
+    .unorderList li:hover {
+      color: blue;
+      cursor: pointer;
+    }
+
     .socialMedia {
       display: flex;
       flex-direction: row;
@@ -95,6 +100,16 @@
     }
     .ulist li {
       cursor: pointer;
+      font-size: 18px;
+    }
+
+    .ulist li:hover {
+      background-color: white;
+      color: black;
+      padding: 10px 20px;
+      border-radius: 20px;
+      transition: ease-in-out;
+      transition-duration: 0.3s;
     }
     .fa-solid {
       display: none;
@@ -134,10 +149,17 @@
       border-radius: 20px;
       box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.8);
     }
-
+    .cardsContainer:hover {
+      background-color: #8a7645;
+      color: white;
+      transition: ease-in-out;
+      transition-duration: 0.3s;
+      cursor: pointer;
+    }
     img {
       width: 190px;
       height: 200px;
+      border-radius: 20px;
     }
 
     .ImgContainer {
@@ -175,12 +197,16 @@
       box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.7);
     }
 
+
     .BtnContainer button:hover {
-      background-color: #d3d3d3;
+      background-color: #13df13;
       color: #000;
+      transition: ease-in-out;
+      transition-duration: 0.3s;
+      color: white;
     }
 
-    @media only screen and (max-width: 600px) {
+    @media only screen and (max-width: 720px) {
       
       body {
         width: 100%;
